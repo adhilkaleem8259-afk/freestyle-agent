@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "task": "hi'",
+      "agent": "ParallelAgent1 \u2705"
+    },
+    {
+      "task": "wassup",
+      "agent": "LoopAgent1 \u2705"
+    },
+    {
+      "task": "hi",
+      "agent": "ParallelAgent1 \u2705"
+    },
+    {
+      "task": "hi",
+      "agent": "LoopAgent1 \u2705"
+    },
+    {
+      "task": "hi",
+      "agent": "SequentialAgent1 \u2705"
+    },
+    {
+      "task": "hi",
+      "agent": "LoopAgent1 \u2705"
+    },
+    {
+      "task": "hi",
+      "agent": "SequentialAgent1 \u2705"
+    }
+  ]
+}

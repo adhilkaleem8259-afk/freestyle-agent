@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freestyle Agent Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tasks Panel -->
+        <div id="tasks">
+            <h3>Tasks</h3>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter new task" required>
+                <button type="submit">Add Task</button>
+            </form>
+            <div id="task-container">
+                <ul id="task-list"></ul>
+            </div>
+        </div>
+
+        <!-- Logs Panel -->
+        <div id="logs">
+            <h3>Logs</h3>
+            <div id="log-container">
+                <ul id="log-list"></ul>
+            </div>
+            <button id="clear-logs">Clear Logs</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+#tasks, #logs {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+
+#tasks {
+    background-color: #0074D9; /* blue */
+    color: white;
+}
+
+#task-container {
+    height: 300px;       /* scrollable area */
+    overflow-y: auto;    /* vertical scroll */
+    margin-bottom: 10px; /* space for add task input */
+}
+
+#logs {
+    background-color: #001f3f; /* dark blue */
+    color: white;
+}
+
+#log-container {
+    height: 300px;       /* scrollable area */
+    overflow-y: auto;    /* vertical scroll */
+    margin-bottom: 10px; /* space for button */
+}
+
+h3 {
+    margin-top: 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FF4136; /* red */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF0000;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
