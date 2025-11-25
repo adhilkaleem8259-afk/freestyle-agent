@@ -97,59 +97,13 @@ Then register it inside the orchestrator.
 
 📁 Project Structure
 
-
-freestyle_agent/
-|
-│   main.py
-│   orchestrator.py
-│   requirements.txt
-│   user_history.json
-│
-├───agent/
-│   │   commands.py
-│   │   llm_agent.py
-│   │   loop_agent.py
-│   │   memory.py
-│   │   message_bus.py
-│   │   parallel_agent.py
-│   │   sequential_agent.py
-│   │   __init__.py
-|
-├───data/
-│       user_history.json
-│
-├───logs/
-│       agent.log
-│
-├───tools/
-│   │   toolbox.py
-│   │   __init__.py
-│
-├───ui/
-│   │   terminal_ui.py
-│   │   __init__.py
-│   
-├───utils/
-│   │   config.py
-│   │   helpers.py
-│   │   __init__.py
-│
-└───web/
-    │   __init__.py
-    │
-    ├───static/
-    │       script.js
-    │       style.css
-    │
-    └───templates/
-            index.html
-            log_panel.html
+<img width="284" height="883" alt="6" src="https://github.com/user-attachments/assets/6de0fa9d-2166-46dd-a658-8f1e97af1639" />
 
 
 ⚙️ Installation
 1. Clone the repository
    
-git clone https://github.com/username/repository.git
+git clone https://github.com/adhilkaleem8259-afk/freestyle-agent.git
 cd repository
 
 2. Create virtual environment (optional but recommended)
@@ -179,12 +133,13 @@ To stop the server:
 ctrl + c
 
 📘 Usage
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/f6c0ba37-6f34-4fe2-95a9-48b312c13cb7" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/b421c755-8958-4815-a75b-a56afd489262" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/400528b7-3d61-419f-806d-a776b9b46868" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/5e7e9187-e32c-4b75-9b00-f26ed6353870" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/0ee1bfa8-a462-433e-bbed-f846527d30f2" />
 
-<img width="1920" height="1080" alt="Screenshot 2025-11-25 150233" src="https://github.com/user-attachments/assets/6d0e52ab-579b-4996-8a26-1a2f19b02aa3" />
-<img width="1920" height="1080" alt="Screenshot 2025-11-25 150212" src="https://github.com/user-attachments/assets/90c3907b-e617-46ed-9e1f-83ea2c398812" />
-<img width="1920" height="1080" alt="Screenshot 2025-11-25 150328" src="https://github.com/user-attachments/assets/8cdae0b3-aaff-4b01-a28a-73104dae279a" />
-<img width="1920" height="1080" alt="Screenshot 2025-11-25 150302" src="https://github.com/user-attachments/assets/f4113a06-cbed-4236-b87a-a7a393f6cf5e" />
-<img width="1920" height="1080" alt="Screenshot 2025-11-25 150242" src="https://github.com/user-attachments/assets/f738d508-eb46-490c-8aea-e5d1d378ac76" />
+
 
 
 🛠️ Future Enhancements
