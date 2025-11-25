@@ -97,7 +97,10 @@ Then register it inside the orchestrator.
 
 📁 Project Structure
 
+
 <img width="284" height="883" alt="6" src="https://github.com/user-attachments/assets/6de0fa9d-2166-46dd-a658-8f1e97af1639" />
+
+
 
 
 ⚙️ Installation
@@ -132,7 +135,9 @@ python main.py
 To stop the server:
 ctrl + c
 
+
 📘 Usage
+
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/f6c0ba37-6f34-4fe2-95a9-48b312c13cb7" />
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/b421c755-8958-4815-a75b-a56afd489262" />
 <img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/400528b7-3d61-419f-806d-a776b9b46868" />
@@ -152,11 +157,13 @@ These will make the project even stronger:
 
 
 👤 Author
+
 Adhilmohamed Kaleem
 Freestyle Agent Developer  
 Built as part of coding
 
 
 📜 License
+
 Open for educational and personal use.
 
