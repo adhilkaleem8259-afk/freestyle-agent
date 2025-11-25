@@ -1,9 +1,9 @@
-Freestyle Agent
+**Freestyle Agent**
 
 Freestyle Agent is a modular, offline‑capable AI task assistant built in Python.  
 It provides an extendable multi‑agent architecture, a Rich‑powered CLI interface, and an automatic user history system.
 
-📌 Overview
+**📌 Overview**
 Freestyle Agent is designed as a flexible offline assistant that can:
 - Run multiple agent functions inside a single orchestrator  
 - Remember user preferences through history  
@@ -15,34 +15,34 @@ This project is part of a hands‑on practical build for automation, AI usabilit
 
 
 
-🚀 Features
+**🚀 Features**
 
-1. Modular Agent Architecture
+**1. Modular Agent Architecture**
 The core of the project lies in `orchestrator.py`, which:
 - Routes tasks to the correct agent
 - Supports adding unlimited new agents
 - Makes the system scalable and extendable
 
-2. Interactive CLI (Rich UI)
+**2. Interactive CLI (Rich UI)**
 The main interface (`main.py`) uses **Rich**:
 - Colorful panels  
 - Tables  
 - Styled prompts  
 - A clean, readable command‑line experience  
 
-3. Persistent User History
+**3. Persistent User History**
 The file `user_history.json` automatically:
 - Saves past user data  
 - Loads previous sessions  
 - Allows personalization for responses
 - log will update every 2 seconds
 
-4. Offline & Lightweight
+**4. Offline & Lightweight**
 No external APIs needed.  
 Runs on any machine with Python installed.
 
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Languages:
 
@@ -69,7 +69,7 @@ Tools:
 
 
 
-🧠 How the System Works
+**🧠 How the System Works**
 
 main.py
 - Displays Rich UI header  
@@ -95,7 +95,7 @@ Then register it inside the orchestrator.
 
 
 
-📁 Project Structure
+**📁 Project Structure**
 
 
 <img width="284" height="883" alt="6" src="https://github.com/user-attachments/assets/6de0fa9d-2166-46dd-a658-8f1e97af1639" />
@@ -103,7 +103,7 @@ Then register it inside the orchestrator.
 
 
 
-⚙️ Installation
+**⚙️ Installation**
 1. Clone the repository
    
 git clone https://github.com/adhilkaleem8259-afk/freestyle-agent.git
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 
 
 
-▶️ Run the Project
+**▶️ Run the Project**
 Example (FastAPI):
 //run this code
 uvicorn main:app --reload
@@ -136,7 +136,7 @@ To stop the server:
 ctrl + c
 
 
-📘 Usage
+**📘 Usage**
 
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/f6c0ba37-6f34-4fe2-95a9-48b312c13cb7" />
 <img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/b421c755-8958-4815-a75b-a56afd489262" />
@@ -147,7 +147,7 @@ ctrl + c
 
 
 
-🛠️ Future Enhancements
+**🛠️ Future Enhancements**
 These will make the project even stronger:
 - Parallel execution agents  
 - File analyzing agent  
@@ -156,14 +156,15 @@ These will make the project even stronger:
 - Integration with local ML models  
 
 
-👤 Author
+**👤 Author**
 
-Adhilmohamed Kaleem
+**Adhilmohamed Kaleem**
+
 Freestyle Agent Developer  
 Built as part of coding
 
 
-📜 License
+**📜 License**
 
 Open for educational and personal use.
 
